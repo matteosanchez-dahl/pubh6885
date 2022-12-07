@@ -1,0 +1,54 @@
+2022-12-06 00:55:59 INFO::Writing function arguments to log file
+2022-12-06 00:55:59 DEBUG::Function arguments
+2022-12-06 00:55:59 DEBUG::Output folder: analysis/maaslin2_normalized_high_output
+2022-12-06 00:55:59 DEBUG::Min Abundance: 0.000000
+2022-12-06 00:55:59 DEBUG::Min Prevalence: 0.100000
+2022-12-06 00:55:59 DEBUG::Normalization: NONE
+2022-12-06 00:55:59 DEBUG::Transform: LOG
+2022-12-06 00:55:59 DEBUG::Analysis method: LM
+2022-12-06 00:55:59 DEBUG::Max significance: 0.100000
+2022-12-06 00:55:59 DEBUG::Random effects:
+2022-12-06 00:55:59 DEBUG::Fixed effects:
+2022-12-06 00:55:59 DEBUG::Correction method: BH
+2022-12-06 00:55:59 DEBUG::Standardize: FALSE
+2022-12-06 00:55:59 DEBUG::Cores: 1
+2022-12-06 00:55:59 INFO::Verifying options selected are valid
+2022-12-06 00:55:59 INFO::Determining format of input files
+2022-12-06 00:55:59 INFO::Input format is data samples as rows and metadata samples as rows
+2022-12-06 00:55:59 DEBUG::A total of 35 samples were found in both the data and metadata
+2022-12-06 00:55:59 DEBUG::Reordering data/metadata to use same sample ordering
+2022-12-06 00:55:59 INFO::Formula for fixed effects: expr ~  Group
+2022-12-06 00:55:59 INFO::Filter data based on min abundance and min prevalence
+2022-12-06 00:55:59 INFO::Total samples in data: 35
+2022-12-06 00:55:59 INFO::Min samples required with min abundance for a feature not to be filtered: 3.500000
+2022-12-06 00:55:59 INFO::Total filtered features: 0
+2022-12-06 00:55:59 INFO::Filtered feature names from abundance and prevalence filtering:
+2022-12-06 00:55:59 INFO::Total filtered features with variance filtering: 0
+2022-12-06 00:55:59 INFO::Filtered feature names from variance filtering:
+2022-12-06 00:55:59 INFO::Running selected normalization method: NONE
+2022-12-06 00:55:59 INFO::Bypass z-score application to metadata
+2022-12-06 00:55:59 INFO::Running selected transform method: LOG
+2022-12-06 00:55:59 INFO::Running selected analysis method: LM
+2022-12-06 00:55:59 INFO::Fitting model to feature number 1, alanine
+2022-12-06 00:55:59 INFO::Fitting model to feature number 2, glucose
+2022-12-06 00:55:59 INFO::Fitting model to feature number 3, lysine
+2022-12-06 00:55:59 INFO::Fitting model to feature number 4, lactate
+2022-12-06 00:55:59 INFO::Fitting model to feature number 5, pyruvate
+2022-12-06 00:55:59 INFO::Fitting model to feature number 6, glutamate
+2022-12-06 00:55:59 INFO::Fitting model to feature number 7, lipids
+2022-12-06 00:55:59 INFO::Fitting model to feature number 8, N.acetyl.glycoprotein
+2022-12-06 00:55:59 INFO::Counting total values for each feature
+2022-12-06 00:55:59 INFO::Writing filtered data to file analysis/maaslin2_normalized_high_output/features/filtered_data.tsv
+2022-12-06 00:55:59 INFO::Writing filtered, normalized data to file analysis/maaslin2_normalized_high_output/features/filtered_data_norm.tsv
+2022-12-06 00:55:59 INFO::Writing filtered, normalized, transformed data to file analysis/maaslin2_normalized_high_output/features/filtered_data_norm_transformed.tsv
+2022-12-06 00:55:59 INFO::Writing residuals to file analysis/maaslin2_normalized_high_output/fits/residuals.rds
+2022-12-06 00:55:59 INFO::Writing fitted values to file analysis/maaslin2_normalized_high_output/fits/fitted.rds
+2022-12-06 00:55:59 INFO::Writing all results to file (ordered by increasing q-values): analysis/maaslin2_normalized_high_output/all_results.tsv
+2022-12-06 00:55:59 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.100000 ) to file (ordered by increasing q-values): analysis/maaslin2_normalized_high_output/significant_results.tsv
+2022-12-06 00:55:59 INFO::Writing heatmap of significant results to file: analysis/maaslin2_normalized_high_output/heatmap.pdf
+2022-12-06 00:55:59 INFO::Writing association plots (one for each significant association) to output folder: analysis/maaslin2_normalized_high_output
+2022-12-06 00:55:59 INFO::Plotting associations from most to least significant, grouped by metadata
+2022-12-06 00:55:59 INFO::Plotting data for metadata number 1, Group
+2022-12-06 00:55:59 INFO::Creating boxplot for categorical data, Group vs lactate
+2022-12-06 00:55:59 INFO::Creating boxplot for categorical data, Group vs N.acetyl.glycoprotein
+2022-12-06 00:55:59 INFO::Creating boxplot for categorical data, Group vs glucose
