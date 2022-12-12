@@ -5,7 +5,7 @@ This repo contains functions to analyze 1H NMR spectral data from the [MTBLS326]
 
 ## Functions
 
-'''R
+```R
 ## this is R
-'''
+```
 
